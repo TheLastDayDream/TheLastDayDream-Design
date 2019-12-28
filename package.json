@@ -1,6 +1,6 @@
 {
   "name": "@thelastdaydream/design",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "This is the design system of TheLasyDayDream platform",
   "main": "index.js",
   "repository": "https://github.com/TheLastDayDream/TheLastDayDream-Design.git",
@@ -12,7 +12,7 @@
     "build": "yarn run clean && yarn run compile",
     "compile": "lessc --clean-css='--s1 --advanced --compatibility=ie8' --js src/theme.less dist/index.min.css",
     "prepublish": "yarn run build",
-    "clean": "rm -R ./dist"
+    "clean": "rm -Rf ./dist"
   },
   "devDependencies": {
     "antd": "^3.26.4",
